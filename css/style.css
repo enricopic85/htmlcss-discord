@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.voci-nav ul{
+    list-style: none;
+}
+.voci-nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    font-size: small;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* ---------------------------------------------------------------------- */
+header{
+    background-image: url(../img/jumbo.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    padding-top: 20px;
+    width: 20%;
+    vertical-align: middle;
+}
+.voci-nav{
+    width: 60%;
+    line-height: 70px;
+    text-align: center;
+}
+nav{
+    height: 70px;
+}
+.button{
+    width: 20%;
+    line-height: 70px;
+    text-align: right;
+}
+.button a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: small;
+}
