@@ -11,6 +11,7 @@ nav::after{
 .container{
     width: 1000px;
     margin: 0 auto;
+    position: relative;
 }
 .fl{
     float: left;
@@ -64,4 +65,34 @@ nav{
     text-align: center;
     line-height: 30px;
     font-size: small;
+}
+.content-header{
+    width: 640px;
+    text-align: center;
+}
+.content-header h1{
+    padding-bottom: 20px;
+    color: white;
+}
+.content-header p{
+    padding-bottom: 5px;
+    color: white;
+}
+
+.button-large a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: small;
+    margin-right: 190px;
+    margin-top: 10px;
+}
+.button-large{
+    display: inline-block;
 }
