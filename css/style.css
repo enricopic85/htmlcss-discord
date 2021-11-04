@@ -12,6 +12,7 @@ nav::after{
     width: 1000px;
     margin: 0 auto;
     position: relative;
+    height: 100%;
 }
 .fl{
     float: left;
@@ -54,7 +55,7 @@ nav{
     line-height: 70px;
     text-align: right;
 }
-.button a{
+.button-small{
     text-decoration: none;
     background-color: white;
     color: black;
@@ -69,6 +70,11 @@ nav{
 .content-header{
     width: 640px;
     text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .content-header h1{
     padding-bottom: 20px;
@@ -78,8 +84,8 @@ nav{
     padding-bottom: 5px;
     color: white;
 }
-
-.button-large a{
+.button-medium{
+    margin-right: 20px;
     text-decoration: none;
     background-color: white;
     color: black;
@@ -90,12 +96,23 @@ nav{
     text-align: center;
     line-height: 30px;
     font-size: small;
-    margin-right: 190px;
     margin-top: 10px;
 }
 .button-large{
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
     display: inline-block;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: small;
+    margin-top: 10px;
 }
+
 main{
     height: 500px;
 }
