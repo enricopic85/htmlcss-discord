@@ -96,3 +96,24 @@ nav{
 .button-large{
     display: inline-block;
 }
+main{
+    height: 500px;
+}
+.image-main{
+    margin-top: 50px;
+    width: 50%;
+}
+.text-main{
+    margin-top: 75px;
+    padding-left: 130px;
+    width: 50%;
+}
+.image-main img{
+    width: 100%;
+}
+.margin{
+    margin-bottom: 20px;
+}
+.text-main p{
+    margin-bottom: 5px;
+}
