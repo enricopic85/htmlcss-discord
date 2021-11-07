@@ -8,6 +8,11 @@ nav::after{
     display: table;
     clear: both;
 }
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 .container{
     width: 1000px;
     margin: 0 auto;
@@ -28,6 +33,32 @@ nav::after{
 }
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+footer{
+    background-color: black;
+    height: 500px;
+}
+.mg-top{
+    margin-top: 50px;
+}
+.row{
+    height: 300px;
+    border:1px solid black;
+}
+.footer{
+    height: 500px;
+}
+.white{
+    color: white;
+}
+.mg-top15{
+    margin-top: 15px;
+}
+.mg-top20{
+    margin-top: 20px;
+}
+.fr{
+    float: right;
 }
 /* ---------------------------------------------------------------------- */
 header{
@@ -61,6 +92,18 @@ nav{
     color: black;
     display: inline-block;
     width: 70px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: small;
+}
+.button-small-foot{
+    text-decoration: none;
+    background-color: rgb(54, 54, 139);
+    color: white;
+    display: inline-block;
+    width: 90px;
     height: 30px;
     border-radius: 30px;
     text-align: center;
@@ -133,4 +176,92 @@ main{
 }
 .text-main p{
     margin-bottom: 5px;
+}
+.mg-bot10{
+    margin-bottom: 10px;
+}
+.fs14{
+    font-size: 14px;
+}
+/* .svg{
+    background-image: url(../img/wave.svg);
+} */
+.ultimo-div{
+    margin-top: 100px;
+}
+.ultimo-div h1 {
+    text-align: center;
+}
+.ultimo-div p{
+    text-align: center;
+}
+.ultima-img{
+    margin-top: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+.ultima-img img{
+    width: 100%;
+}
+.stars{
+    /* background-image: url(../img/stars.svg); */
+    margin-top: 50px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 50px;
+}
+.stars h2{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.stars{
+    text-align: center;
+    margin: 0 auto;
+}
+.avventura{
+    text-align: center;
+}
+.big-main{
+    height: 600px;
+}
+.button-avventura{
+    margin-right: 20px;
+    text-decoration: none;
+    background-color:rgb(109, 109, 221);
+    color: white;
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: small;
+    margin-top: 30px;
+}
+.contact{
+    width: 30%;
+}
+.container-footer{
+    height: 400px;
+    padding-top: 40px;
+}
+.product{
+    width: 15%;
+    padding-top: 8px;
+}
+
+.blue{
+    color: blue;
+}
+.product ul li{
+    list-style: none;
+}
+.row2::after{
+    display: table;
+    clear: both;
+    content: "";
 }
