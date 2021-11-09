@@ -60,6 +60,33 @@ footer{
 .fr{
     float: right;
 }
+.ib{
+    display: inline-block;
+}
+.flag img{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.vm{
+    vertical-align: middle;
+}
+/* .flag li::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f099";
+    color:white;
+} */
+.cw{
+    color: white;
+}
+.flag ul{
+    margin-top: 30px;
+}
+.flag ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
 /* ---------------------------------------------------------------------- */
 header{
     background-image: url(../img/jumbo.png);
